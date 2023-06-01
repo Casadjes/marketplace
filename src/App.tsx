@@ -41,17 +41,17 @@ function App() {
 	};
 
 	return (
-		<section className='bg-white dark:bg-gray-900'>
+		<section className='w-full h-full min-h-screen bg-slate-200'>
 			<div className='container px-6 py-10 mx-auto'>
 				<div className='flex items-center justify-between'>
-					<h1 className='text-2xl font-semibold text-gray-800 capitalize lg:text-3xl dark:text-white'>
+					<h1 className='text-2xl font-semibold text-gray-800 capitalize lg:text-3xl '>
 						Marketplace React + Typescript
 					</h1>
 
 					<button className='focus:outline-none'></button>
 				</div>
 
-				<hr className='my-8 border-gray-200 dark:border-gray-700' />
+				<hr className='my-8 border-gray-200' />
 				<Navbar
 					categories={category}
 					onClickItem={(item: string) => setselectedCategory(item)}

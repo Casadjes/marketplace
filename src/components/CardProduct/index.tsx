@@ -6,9 +6,9 @@ interface Props {
 
 export const CardProduct = ({ item }: Props) => {
 	return (
-		<div className='max-w-xs overflow-hidden bg-white rounded-lg shadow-lg dark:bg-gray-800'>
+		<div className='max-w-xs overflow-hidden bg-white rounded-lg shadow-lg'>
 			<div className='px-4 py-2'>
-				<h1 className='text-xl font-bold text-gray-800 uppercase dark:text-white truncate'>
+				<h1 className='text-xl font-bold text-gray-800 uppercase  truncate'>
 					{item.title}
 				</h1>
 			</div>
